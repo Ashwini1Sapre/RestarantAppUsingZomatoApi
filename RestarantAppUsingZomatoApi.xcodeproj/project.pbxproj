@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60BFCD5225DFD04400BD9A83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BFCD5125DFD04400BD9A83 /* AppDelegate.swift */; };
+		60BFCD5425DFD04400BD9A83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BFCD5325DFD04400BD9A83 /* SceneDelegate.swift */; };
+		60BFCD5625DFD04400BD9A83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BFCD5525DFD04400BD9A83 /* ContentView.swift */; };
+		60BFCD5825DFD04700BD9A83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BFCD5725DFD04700BD9A83 /* Assets.xcassets */; };
+		60BFCD5B25DFD04700BD9A83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BFCD5A25DFD04700BD9A83 /* Preview Assets.xcassets */; };
+		60BFCD5E25DFD04700BD9A83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60BFCD5C25DFD04700BD9A83 /* LaunchScreen.storyboard */; };
+		60BFCD6925DFD04700BD9A83 /* RestarantAppUsingZomatoApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BFCD6825DFD04700BD9A83 /* RestarantAppUsingZomatoApiTests.swift */; };
+		60BFCD7425DFD04700BD9A83 /* RestarantAppUsingZomatoApiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BFCD7325DFD04700BD9A83 /* RestarantAppUsingZomatoApiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60BFCD6525DFD04700BD9A83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60BFCD4625DFD04400BD9A83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60BFCD4D25DFD04400BD9A83;
+			remoteInfo = RestarantAppUsingZomatoApi;
+		};
+		60BFCD7025DFD04700BD9A83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60BFCD4625DFD04400BD9A83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60BFCD4D25DFD04400BD9A83;
+			remoteInfo = RestarantAppUsingZomatoApi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60BFCD4E25DFD04400BD9A83 /* RestarantAppUsingZomatoApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestarantAppUsingZomatoApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BFCD5125DFD04400BD9A83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60BFCD5325DFD04400BD9A83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		60BFCD5525DFD04400BD9A83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		60BFCD5725DFD04700BD9A83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60BFCD5A25DFD04700BD9A83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		60BFCD5D25DFD04700BD9A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60BFCD5F25DFD04700BD9A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60BFCD6425DFD04700BD9A83 /* RestarantAppUsingZomatoApiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestarantAppUsingZomatoApiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BFCD6825DFD04700BD9A83 /* RestarantAppUsingZomatoApiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestarantAppUsingZomatoApiTests.swift; sourceTree = "<group>"; };
+		60BFCD6A25DFD04700BD9A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60BFCD6F25DFD04700BD9A83 /* RestarantAppUsingZomatoApiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestarantAppUsingZomatoApiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BFCD7325DFD04700BD9A83 /* RestarantAppUsingZomatoApiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestarantAppUsingZomatoApiUITests.swift; sourceTree = "<group>"; };
+		60BFCD7525DFD04700BD9A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60BFCD4B25DFD04400BD9A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BFCD6125DFD04700BD9A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BFCD6C25DFD04700BD9A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60BFCD4525DFD04400BD9A83 = {
+			isa = PBXGroup;
+			children = (
+				60BFCD5025DFD04400BD9A83 /* RestarantAppUsingZomatoApi */,
+				60BFCD6725DFD04700BD9A83 /* RestarantAppUsingZomatoApiTests */,
+				60BFCD7225DFD04700BD9A83 /* RestarantAppUsingZomatoApiUITests */,
+				60BFCD4F25DFD04400BD9A83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60BFCD4F25DFD04400BD9A83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60BFCD4E25DFD04400BD9A83 /* RestarantAppUsingZomatoApi.app */,
+				60BFCD6425DFD04700BD9A83 /* RestarantAppUsingZomatoApiTests.xctest */,
+				60BFCD6F25DFD04700BD9A83 /* RestarantAppUsingZomatoApiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60BFCD5025DFD04400BD9A83 /* RestarantAppUsingZomatoApi */ = {
+			isa = PBXGroup;
+			children = (
+				60BFCD5125DFD04400BD9A83 /* AppDelegate.swift */,
+				60BFCD5325DFD04400BD9A83 /* SceneDelegate.swift */,
+				60BFCD5525DFD04400BD9A83 /* ContentView.swift */,
+				60BFCD5725DFD04700BD9A83 /* Assets.xcassets */,
+				60BFCD5C25DFD04700BD9A83 /* LaunchScreen.storyboard */,
+				60BFCD5F25DFD04700BD9A83 /* Info.plist */,
+				60BFCD5925DFD04700BD9A83 /* Preview Content */,
+			);
+			path = RestarantAppUsingZomatoApi;
+			sourceTree = "<group>";
+		};
+		60BFCD5925DFD04700BD9A83 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				60BFCD5A25DFD04700BD9A83 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		60BFCD6725DFD04700BD9A83 /* RestarantAppUsingZomatoApiTests */ = {
+			isa = PBXGroup;
+			children = (
+				60BFCD6825DFD04700BD9A83 /* RestarantAppUsingZomatoApiTests.swift */,
+				60BFCD6A25DFD04700BD9A83 /* Info.plist */,
+			);
+			path = RestarantAppUsingZomatoApiTests;
+			sourceTree = "<group>";
+		};
+		60BFCD7225DFD04700BD9A83 /* RestarantAppUsingZomatoApiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60BFCD7325DFD04700BD9A83 /* RestarantAppUsingZomatoApiUITests.swift */,
+				60BFCD7525DFD04700BD9A83 /* Info.plist */,
+			);
+			path = RestarantAppUsingZomatoApiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60BFCD4D25DFD04400BD9A83 /* RestarantAppUsingZomatoApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60BFCD7825DFD04700BD9A83 /* Build configuration list for PBXNativeTarget "RestarantAppUsingZomatoApi" */;
+			buildPhases = (
+				60BFCD4A25DFD04400BD9A83 /* Sources */,
+				60BFCD4B25DFD04400BD9A83 /* Frameworks */,
+				60BFCD4C25DFD04400BD9A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RestarantAppUsingZomatoApi;
+			productName = RestarantAppUsingZomatoApi;
+			productReference = 60BFCD4E25DFD04400BD9A83 /* RestarantAppUsingZomatoApi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60BFCD6325DFD04700BD9A83 /* RestarantAppUsingZomatoApiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60BFCD7B25DFD04700BD9A83 /* Build configuration list for PBXNativeTarget "RestarantAppUsingZomatoApiTests" */;
+			buildPhases = (
+				60BFCD6025DFD04700BD9A83 /* Sources */,
+				60BFCD6125DFD04700BD9A83 /* Frameworks */,
+				60BFCD6225DFD04700BD9A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60BFCD6625DFD04700BD9A83 /* PBXTargetDependency */,
+			);
+			name = RestarantAppUsingZomatoApiTests;
+			productName = RestarantAppUsingZomatoApiTests;
+			productReference = 60BFCD6425DFD04700BD9A83 /* RestarantAppUsingZomatoApiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60BFCD6E25DFD04700BD9A83 /* RestarantAppUsingZomatoApiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60BFCD7E25DFD04700BD9A83 /* Build configuration list for PBXNativeTarget "RestarantAppUsingZomatoApiUITests" */;
+			buildPhases = (
+				60BFCD6B25DFD04700BD9A83 /* Sources */,
+				60BFCD6C25DFD04700BD9A83 /* Frameworks */,
+				60BFCD6D25DFD04700BD9A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60BFCD7125DFD04700BD9A83 /* PBXTargetDependency */,
+			);
+			name = RestarantAppUsingZomatoApiUITests;
+			productName = RestarantAppUsingZomatoApiUITests;
+			productReference = 60BFCD6F25DFD04700BD9A83 /* RestarantAppUsingZomatoApiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60BFCD4625DFD04400BD9A83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					60BFCD4D25DFD04400BD9A83 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					60BFCD6325DFD04700BD9A83 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 60BFCD4D25DFD04400BD9A83;
+					};
+					60BFCD6E25DFD04700BD9A83 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 60BFCD4D25DFD04400BD9A83;
+					};
+				};
+			};
+			buildConfigurationList = 60BFCD4925DFD04400BD9A83 /* Build configuration list for PBXProject "RestarantAppUsingZomatoApi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60BFCD4525DFD04400BD9A83;
+			productRefGroup = 60BFCD4F25DFD04400BD9A83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60BFCD4D25DFD04400BD9A83 /* RestarantAppUsingZomatoApi */,
+				60BFCD6325DFD04700BD9A83 /* RestarantAppUsingZomatoApiTests */,
+				60BFCD6E25DFD04700BD9A83 /* RestarantAppUsingZomatoApiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60BFCD4C25DFD04400BD9A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BFCD5E25DFD04700BD9A83 /* LaunchScreen.storyboard in Resources */,
+				60BFCD5B25DFD04700BD9A83 /* Preview Assets.xcassets in Resources */,
+				60BFCD5825DFD04700BD9A83 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BFCD6225DFD04700BD9A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BFCD6D25DFD04700BD9A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60BFCD4A25DFD04400BD9A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BFCD5225DFD04400BD9A83 /* AppDelegate.swift in Sources */,
+				60BFCD5425DFD04400BD9A83 /* SceneDelegate.swift in Sources */,
+				60BFCD5625DFD04400BD9A83 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BFCD6025DFD04700BD9A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BFCD6925DFD04700BD9A83 /* RestarantAppUsingZomatoApiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BFCD6B25DFD04700BD9A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BFCD7425DFD04700BD9A83 /* RestarantAppUsingZomatoApiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60BFCD6625DFD04700BD9A83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60BFCD4D25DFD04400BD9A83 /* RestarantAppUsingZomatoApi */;
+			targetProxy = 60BFCD6525DFD04700BD9A83 /* PBXContainerItemProxy */;
+		};
+		60BFCD7125DFD04700BD9A83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60BFCD4D25DFD04400BD9A83 /* RestarantAppUsingZomatoApi */;
+			targetProxy = 60BFCD7025DFD04700BD9A83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60BFCD5C25DFD04700BD9A83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60BFCD5D25DFD04700BD9A83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60BFCD7625DFD04700BD9A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60BFCD7725DFD04700BD9A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60BFCD7925DFD04700BD9A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RestarantAppUsingZomatoApi/Preview Content\"";
+				DEVELOPMENT_TEAM = DD73F8592Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RestarantAppUsingZomatoApi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = knoxpo.RestarantAppUsingZomatoApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60BFCD7A25DFD04700BD9A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RestarantAppUsingZomatoApi/Preview Content\"";
+				DEVELOPMENT_TEAM = DD73F8592Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RestarantAppUsingZomatoApi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = knoxpo.RestarantAppUsingZomatoApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		60BFCD7C25DFD04700BD9A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DD73F8592Z;
+				INFOPLIST_FILE = RestarantAppUsingZomatoApiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = knoxpo.RestarantAppUsingZomatoApiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestarantAppUsingZomatoApi.app/RestarantAppUsingZomatoApi";
+			};
+			name = Debug;
+		};
+		60BFCD7D25DFD04700BD9A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DD73F8592Z;
+				INFOPLIST_FILE = RestarantAppUsingZomatoApiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = knoxpo.RestarantAppUsingZomatoApiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestarantAppUsingZomatoApi.app/RestarantAppUsingZomatoApi";
+			};
+			name = Release;
+		};
+		60BFCD7F25DFD04700BD9A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DD73F8592Z;
+				INFOPLIST_FILE = RestarantAppUsingZomatoApiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = knoxpo.RestarantAppUsingZomatoApiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RestarantAppUsingZomatoApi;
+			};
+			name = Debug;
+		};
+		60BFCD8025DFD04700BD9A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DD73F8592Z;
+				INFOPLIST_FILE = RestarantAppUsingZomatoApiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = knoxpo.RestarantAppUsingZomatoApiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RestarantAppUsingZomatoApi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60BFCD4925DFD04400BD9A83 /* Build configuration list for PBXProject "RestarantAppUsingZomatoApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60BFCD7625DFD04700BD9A83 /* Debug */,
+				60BFCD7725DFD04700BD9A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60BFCD7825DFD04700BD9A83 /* Build configuration list for PBXNativeTarget "RestarantAppUsingZomatoApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60BFCD7925DFD04700BD9A83 /* Debug */,
+				60BFCD7A25DFD04700BD9A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60BFCD7B25DFD04700BD9A83 /* Build configuration list for PBXNativeTarget "RestarantAppUsingZomatoApiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60BFCD7C25DFD04700BD9A83 /* Debug */,
+				60BFCD7D25DFD04700BD9A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60BFCD7E25DFD04700BD9A83 /* Build configuration list for PBXNativeTarget "RestarantAppUsingZomatoApiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60BFCD7F25DFD04700BD9A83 /* Debug */,
+				60BFCD8025DFD04700BD9A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60BFCD4625DFD04400BD9A83 /* Project object */;
+}
