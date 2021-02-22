@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct Cuisines: Codable{
+struct Cuisines: Identifiable{
     
     var id: String = UUID().uuidString
     let cuisinesName: String

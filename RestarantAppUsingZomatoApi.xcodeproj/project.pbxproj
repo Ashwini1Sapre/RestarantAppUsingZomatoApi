@@ -12,6 +12,18 @@
 		606CE40A25E0F21700219E2A /* WenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606CE40925E0F21700219E2A /* WenView.swift */; };
 		606CE40F25E0F38000219E2A /* RestAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606CE40E25E0F38000219E2A /* RestAnnotation.swift */; };
 		606CE41425E0F44300219E2A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606CE41325E0F44300219E2A /* LocationManager.swift */; };
+		608F498725E37B1C00A5D4A1 /* CuisinesVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608F498625E37B1C00A5D4A1 /* CuisinesVM.swift */; };
+		608F498F25E37D8900A5D4A1 /* CitiesVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608F498E25E37D8900A5D4A1 /* CitiesVM.swift */; };
+		608F499425E37FEE00A5D4A1 /* LocationSearchVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608F499325E37FEE00A5D4A1 /* LocationSearchVM.swift */; };
+		608F499925E3890900A5D4A1 /* UserLocationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608F499825E3890900A5D4A1 /* UserLocationVM.swift */; };
+		608F499F25E38E4500A5D4A1 /* RestaruntVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608F499E25E38E4500A5D4A1 /* RestaruntVM.swift */; };
+		608F49A825E39D2500A5D4A1 /* RestaurantLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608F49A725E39D2500A5D4A1 /* RestaurantLocationView.swift */; };
+		608F49AD25E39DF900A5D4A1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608F49AC25E39DF900A5D4A1 /* MapView.swift */; };
+		608F49B225E3AEDA00A5D4A1 /* RestaurantLisyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608F49B125E3AEDA00A5D4A1 /* RestaurantLisyImageView.swift */; };
+		608F49B725E3B36900A5D4A1 /* RestaurantSListROW VIEW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608F49B625E3B36900A5D4A1 /* RestaurantSListROW VIEW.swift */; };
+		608F49BF25E3BD6E00A5D4A1 /* RestaurantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608F49BE25E3BD6E00A5D4A1 /* RestaurantListView.swift */; };
+		608F49C525E3CB5700A5D4A1 /* CitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608F49C425E3CB5700A5D4A1 /* CitiesView.swift */; };
+		608F49D025E3D08400A5D4A1 /* CuisinesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608F49CF25E3D08400A5D4A1 /* CuisinesUI.swift */; };
 		60BFCD5225DFD04400BD9A83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BFCD5125DFD04400BD9A83 /* AppDelegate.swift */; };
 		60BFCD5425DFD04400BD9A83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BFCD5325DFD04400BD9A83 /* SceneDelegate.swift */; };
 		60BFCD5625DFD04400BD9A83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BFCD5525DFD04400BD9A83 /* ContentView.swift */; };
@@ -52,6 +64,18 @@
 		606CE40925E0F21700219E2A /* WenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WenView.swift; sourceTree = "<group>"; };
 		606CE40E25E0F38000219E2A /* RestAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAnnotation.swift; sourceTree = "<group>"; };
 		606CE41325E0F44300219E2A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		608F498625E37B1C00A5D4A1 /* CuisinesVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuisinesVM.swift; sourceTree = "<group>"; };
+		608F498E25E37D8900A5D4A1 /* CitiesVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesVM.swift; sourceTree = "<group>"; };
+		608F499325E37FEE00A5D4A1 /* LocationSearchVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchVM.swift; sourceTree = "<group>"; };
+		608F499825E3890900A5D4A1 /* UserLocationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationVM.swift; sourceTree = "<group>"; };
+		608F499E25E38E4500A5D4A1 /* RestaruntVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaruntVM.swift; sourceTree = "<group>"; };
+		608F49A725E39D2500A5D4A1 /* RestaurantLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantLocationView.swift; sourceTree = "<group>"; };
+		608F49AC25E39DF900A5D4A1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		608F49B125E3AEDA00A5D4A1 /* RestaurantLisyImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantLisyImageView.swift; sourceTree = "<group>"; };
+		608F49B625E3B36900A5D4A1 /* RestaurantSListROW VIEW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RestaurantSListROW VIEW.swift"; sourceTree = "<group>"; };
+		608F49BE25E3BD6E00A5D4A1 /* RestaurantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListView.swift; sourceTree = "<group>"; };
+		608F49C425E3CB5700A5D4A1 /* CitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesView.swift; sourceTree = "<group>"; };
+		608F49CF25E3D08400A5D4A1 /* CuisinesUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuisinesUI.swift; sourceTree = "<group>"; };
 		60BFCD4E25DFD04400BD9A83 /* RestarantAppUsingZomatoApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestarantAppUsingZomatoApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BFCD5125DFD04400BD9A83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60BFCD5325DFD04400BD9A83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +124,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		606CE41925E0FDF800219E2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60BFCDA925DFE51100BD9A83 /* RestaurantModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		608F498525E37AC200A5D4A1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				608F498625E37B1C00A5D4A1 /* CuisinesVM.swift */,
+				608F498E25E37D8900A5D4A1 /* CitiesVM.swift */,
+				608F499325E37FEE00A5D4A1 /* LocationSearchVM.swift */,
+				608F499825E3890900A5D4A1 /* UserLocationVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		608F499D25E38E2300A5D4A1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				608F499E25E38E4500A5D4A1 /* RestaruntVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		608F49A625E39BD400A5D4A1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				608F49A725E39D2500A5D4A1 /* RestaurantLocationView.swift */,
+				608F49AC25E39DF900A5D4A1 /* MapView.swift */,
+				608F49B125E3AEDA00A5D4A1 /* RestaurantLisyImageView.swift */,
+				608F49B625E3B36900A5D4A1 /* RestaurantSListROW VIEW.swift */,
+				608F49BE25E3BD6E00A5D4A1 /* RestaurantListView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		608F49C325E3CB3D00A5D4A1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				608F49C425E3CB5700A5D4A1 /* CitiesView.swift */,
+				608F49CF25E3D08400A5D4A1 /* CuisinesUI.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		60BFCD4525DFD04400BD9A83 = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +268,8 @@
 		60BFCD8F25DFD50100BD9A83 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				608F49C325E3CB3D00A5D4A1 /* UI */,
+				608F498525E37AC200A5D4A1 /* ViewModel */,
 				60BFCD9025DFD51C00BD9A83 /* Model */,
 			);
 			path = Home;
@@ -215,7 +289,9 @@
 		60BFCDA825DFE39C00BD9A83 /* RestaurantsList */ = {
 			isa = PBXGroup;
 			children = (
-				60BFCDA925DFE51100BD9A83 /* RestaurantModel.swift */,
+				608F49A625E39BD400A5D4A1 /* UI */,
+				608F499D25E38E2300A5D4A1 /* ViewModel */,
+				606CE41925E0FDF800219E2A /* Model */,
 			);
 			path = RestaurantsList;
 			sourceTree = "<group>";
@@ -350,7 +426,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				608F498F25E37D8900A5D4A1 /* CitiesVM.swift in Sources */,
 				60BFCDB225DFF4A000BD9A83 /* Zomatoerror.swift in Sources */,
+				608F498725E37B1C00A5D4A1 /* CuisinesVM.swift in Sources */,
+				608F49AD25E39DF900A5D4A1 /* MapView.swift in Sources */,
 				60BFCD5225DFD04400BD9A83 /* AppDelegate.swift in Sources */,
 				606CE41425E0F44300219E2A /* LocationManager.swift in Sources */,
 				60BFCDAA25DFE51100BD9A83 /* RestaurantModel.swift in Sources */,
@@ -358,13 +437,22 @@
 				60BFCD9F25DFE07F00BD9A83 /* Cuisines.swift in Sources */,
 				60BFCD5425DFD04400BD9A83 /* SceneDelegate.swift in Sources */,
 				606CE40025E0ED1300219E2A /* ImageLoader.swift in Sources */,
+				608F49B725E3B36900A5D4A1 /* RestaurantSListROW VIEW.swift in Sources */,
 				606CE40A25E0F21700219E2A /* WenView.swift in Sources */,
 				606CE40F25E0F38000219E2A /* RestAnnotation.swift in Sources */,
 				60BFCD8825DFD1BD00BD9A83 /* ZomatoAPi.swift in Sources */,
+				608F49D025E3D08400A5D4A1 /* CuisinesUI.swift in Sources */,
+				608F49C525E3CB5700A5D4A1 /* CitiesView.swift in Sources */,
+				608F499925E3890900A5D4A1 /* UserLocationVM.swift in Sources */,
 				60BFCD9A25DFDCF500BD9A83 /* UserLocation.swift in Sources */,
 				60BFCD9225DFD56300BD9A83 /* LocationSearchFile.swift in Sources */,
+				608F49BF25E3BD6E00A5D4A1 /* RestaurantListView.swift in Sources */,
+				608F49B225E3AEDA00A5D4A1 /* RestaurantLisyImageView.swift in Sources */,
 				60BFCDA425DFE08D00BD9A83 /* City.swift in Sources */,
 				60BFCD5625DFD04400BD9A83 /* ContentView.swift in Sources */,
+				608F499425E37FEE00A5D4A1 /* LocationSearchVM.swift in Sources */,
+				608F499F25E38E4500A5D4A1 /* RestaruntVM.swift in Sources */,
+				608F49A825E39D2500A5D4A1 /* RestaurantLocationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

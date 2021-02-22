@@ -7,13 +7,13 @@
 
 import Foundation
 import MapKit
-
+import CoreLocation
 class RestAnnotation: NSObject, MKAnnotation {
     let title: String?
     let coordinate: CLLocationCoordinate2D
     
-    
-    init(title: String, coordinate:CLLocationCoordinate2D ) {
+   // CLLocationCoordinate2D
+    init(title: String, coordinate: CLLocationCoordinate2D) {
         
         self.title = title
         self.coordinate = coordinate

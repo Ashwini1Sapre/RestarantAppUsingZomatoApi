@@ -36,7 +36,7 @@ struct Restarant : Codable ,Identifiable {
     let thumb: String
     let fetured_image: String
     let user_Rating: UserRating
-    let user_Location: UserLocation
+    let location: RestorantLocationInfo
     let cuisnies: String
     let timing: String
   
@@ -46,7 +46,7 @@ struct Restarant : Codable ,Identifiable {
 struct UserRating: Codable  {
    // var id: ObjectIdentifier
   
-   let aggrigateRating :String
+   let aggrigateRating : AggreegateRating
     let ratingText, ratingColor: String
     let votes: String
     
@@ -143,13 +143,8 @@ struct RestorantLocationInfo: Codable {
         case latitude, longitude, zipcode
         case countryID = "country_id"
         case localityVerbose = "locality_verbose"
-        
-        
-        
-        
+  
     }
-    
-    
-    
+  
     
 }

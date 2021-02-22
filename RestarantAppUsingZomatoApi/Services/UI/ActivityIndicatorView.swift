@@ -28,3 +28,51 @@ struct ActivityIndicatorView: UIViewRepresentable {
     
     
 }
+
+
+struct CustumActivityIndicator: View {
+    
+    let loadingText:String
+    var body: some View {
+        
+        GeometryReader { geomerty in
+            
+            VStack(alignment: .center){
+                
+                ActivityIndicatorView(isAnimating: .constant(true), style: .large)
+                Text(self.loadingText)
+              
+            }
+            .frame(width: geomerty.size.width / 2, height: geomerty.size.height / 5)
+            .background(Color.gray)
+            .foregroundColor(Color.primary)
+            .cornerRadius(3.5)
+            .opacity(1)
+            
+            
+            
+        }
+        
+        
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+

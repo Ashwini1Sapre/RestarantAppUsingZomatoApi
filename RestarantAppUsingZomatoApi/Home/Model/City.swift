@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct City: Codable{
+struct City: Identifiable{
     
     var id: String =  UUID().uuidString
     let cityName: String
