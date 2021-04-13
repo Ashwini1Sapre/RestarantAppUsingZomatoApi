@@ -16,7 +16,7 @@ class UserLocationVM: ObservableObject {
     
     func fetchUserLocationInfo(lat:Double, lon:Double) {
         
-        currentLocationcancanllabel = zomtaAPI.fetchUserLocation(lat: lat, log: lon)
+        currentLocationcancanllabel = zomtaAPI.fetchUserLocation(lat: 19.0760, log: 72.8777)
         
             .receive(on: DispatchQueue.main)
             .sink(receiveCompletion: { [weak self]  value in

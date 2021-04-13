@@ -12,9 +12,9 @@ struct CuisinesVM {
     static func Cuisines1() -> [Cuisines] {
         
         let pizza = Cuisines(cuisinesName: "Pizza", cuisnesImage: "pizza")
-        let inaidan = Cuisines(cuisinesName: "Indian", cuisnesImage: "Samosa")
-        let dessert = Cuisines(cuisinesName: "Dessert", cuisnesImage: "Gulabjam")
-        let all = Cuisines(cuisinesName: "See All", cuisnesImage: "Cutlerry")
+        let inaidan = Cuisines(cuisinesName: "Indian", cuisnesImage: "samosa")
+        let dessert = Cuisines(cuisinesName: "Dessert", cuisnesImage: "cake-pop")
+        let all = Cuisines(cuisinesName: "See All", cuisnesImage: "cutlery")
         return[pizza,inaidan,dessert,all]
     
     }

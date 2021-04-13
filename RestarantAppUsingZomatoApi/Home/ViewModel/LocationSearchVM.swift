@@ -39,15 +39,15 @@ class LocationSearchVM: ObservableObject {
                 
                 }
             
-            }, receiveValue: { [weak self] locationinfo in
+            }, receiveValue: { [weak self] locationInfo in
                guard let self = self else { return }
-                if (locationinfo.locationSuggestions == nil)
+                if (locationInfo.locationSuggestions == nil)
                 {
                     self.dataSourse = []
                 }
                 else
                 {
-                    self.dataSourse = locationinfo.locationSuggestions
+                    self.dataSourse = locationInfo.locationSuggestions
                     
                 }
             

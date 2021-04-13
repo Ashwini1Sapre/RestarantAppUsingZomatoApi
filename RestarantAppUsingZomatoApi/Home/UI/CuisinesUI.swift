@@ -15,20 +15,28 @@ struct CuisinesUI: View {
     let  longitude: Double
     let title: String
     var body: some View {
-       Text("Explore Cusines\(title)")
+        VStack{
+        Text("Explore Cusines\(title)")
+            
+            
         .bold()
         .font(.system(size: 12))
-        
-        VStack(spacing: 20){
+            Text("Explore Cusines\(latitude)")
+            Text("Explore Cusines\(longitude)")
+                .font(.system(size: 8))
+            ScrollView(.horizontal, showsIndicators: false){
+        HStack(spacing: 20){
             
             ForEach(cuisines){ cuisnie in
                 
-                VStack(spacing: 20){
+                VStack(spacing: 10){
                     
         NavigationLink(destination: RestaurantListView(restListVM: RestaruntVM(q: cuisnie.cuisinesName,
                                                                                lat: self.latitude,                 lon: self.longitude),
                                                                                city:
                                                                                 self.title                                                )){
+            
+          
             Image(cuisnie.cuisnesImage)
             
                 .renderingMode(.original)
@@ -39,12 +47,13 @@ struct CuisinesUI: View {
                     Text(cuisnie.cuisinesName)
                         .bold()
                     
+                    Print("value of lat ",self.latitude)
+                    Print("value of lomg",self.longitude)
                     
-                    
-                    
+                    Print("value of caption",self.title)
                 }
                 
-                
+               
                 
                 
                 
@@ -57,16 +66,25 @@ struct CuisinesUI: View {
             
             
         }.padding()
+            }
         
         
-        
+        }
         
         
     }
 }
 
+
+extension View {
+    func Print(_ vars: Any...) -> some View {
+        for v in vars { print(v) }
+        return EmptyView()
+    }
+}
+
 struct Cuisines_Previews: PreviewProvider {
     static var previews: some View {
-        CuisinesUI(latitude: -33.500 , longitude: -71.400 ,title: "Pizza" )
+        CuisinesUI(latitude: -33.500 , longitude: 150.435 ,title: "Pizza" )
     }
 }

@@ -53,26 +53,10 @@ struct CustumActivityIndicator: View {
             
         }
         
-        
-        
-        
-        
-        
+      
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+  
 }
 
 

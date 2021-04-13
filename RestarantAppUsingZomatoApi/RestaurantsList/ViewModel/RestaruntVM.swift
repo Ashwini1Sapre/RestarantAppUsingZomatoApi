@@ -36,11 +36,11 @@ class RestaruntVM: ObservableObject {
                
                 }
                 
-            }, receiveValue: { [weak self] restarants1 in
+            }, receiveValue: { [weak self] restaurants in
                 
                 guard let self = self else { return }
                 
-                self.dataSourse = (restarants1.restarunts.map({$0.restarunt})) as! [Restarant]
+                self.dataSourse = (restaurants.restarunts.map({$0.restarunt})) as! [Restarant]
                
             })
         
@@ -65,12 +65,12 @@ class RestaruntVM: ObservableObject {
                 
                 
                 
-            }, receiveValue: { [weak self] restarunt1 in
+            }, receiveValue: { [weak self] restaurants in
                 
                 guard let self = self else { return }
                // self.dataSourse = (restarunt1.restarunts.map({$0.restarunt})) as! [Restarant]
                 
-                self.dataSourse = (restarunt1.restarunts.map({$0.restarunt})) as! [Restarant]
+                self.dataSourse = (restaurants.restarunts.map({$0.restarunt})) as! [Restarant]
                 
             })
         

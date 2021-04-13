@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		605F352E25E4CAE600740130 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605F352D25E4CAE600740130 /* HomeView.swift */; };
 		606CE40025E0ED1300219E2A /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606CE3FF25E0ED1300219E2A /* ImageLoader.swift */; };
 		606CE40525E0F02400219E2A /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606CE40425E0F02400219E2A /* ActivityIndicatorView.swift */; };
 		606CE40A25E0F21700219E2A /* WenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606CE40925E0F21700219E2A /* WenView.swift */; };
@@ -59,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		605F352D25E4CAE600740130 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		606CE3FF25E0ED1300219E2A /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		606CE40425E0F02400219E2A /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
 		606CE40925E0F21700219E2A /* WenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WenView.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 			children = (
 				608F49C425E3CB5700A5D4A1 /* CitiesView.swift */,
 				608F49CF25E3D08400A5D4A1 /* CuisinesUI.swift */,
+				605F352D25E4CAE600740130 /* HomeView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -427,6 +430,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				608F498F25E37D8900A5D4A1 /* CitiesVM.swift in Sources */,
+				605F352E25E4CAE600740130 /* HomeView.swift in Sources */,
 				60BFCDB225DFF4A000BD9A83 /* Zomatoerror.swift in Sources */,
 				608F498725E37B1C00A5D4A1 /* CuisinesVM.swift in Sources */,
 				608F49AD25E39DF900A5D4A1 /* MapView.swift in Sources */,

@@ -10,10 +10,10 @@ import SwiftUI
 struct RestaurantLisyImageView<Placeholer: View>: View {
     
     @ObservedObject private var loader:ImageLoader
-    private let placeholser:Placeholer?
+    private let placeholder:Placeholer?
     init(url:URL, placeholder: Placeholer? = nil) {
         loader = ImageLoader(url: url)
-        self.placeholser = placeholder
+        self.placeholder = placeholder
     }
     
     var body: some View {
@@ -33,7 +33,7 @@ struct RestaurantLisyImageView<Placeholer: View>: View {
                 .cornerRadius(10.0)
                 .padding(.trailing)
             }else{
-                placeholser
+                placeholder
             }
             
         }

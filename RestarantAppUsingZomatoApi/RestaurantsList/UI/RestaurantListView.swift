@@ -22,19 +22,15 @@ struct RestaurantListView: View {
             if(self.index == 0){
                 if(self.restListVM.dataSourse.isEmpty){
                  CustumActivityIndicator(loadingText: "Loding.....")
-                    
-                    
-                    
+                
                 }
                 else
                 {
-                    List(self.restListVM.dataSourse, id: \.name){restaurants in
-                        
-                   
-                    }
-                    
-                  
+            List(self.restListVM.dataSourse, id: \.name){restaurants in
+                
+                
                 }
+            }
                 
             }else {
                 
@@ -48,14 +44,14 @@ struct RestaurantListView: View {
             
             for i in self.restListVM.dataSourse{
                 
-                let lat = Double(i.location.latitude)
-                let lng = Double(i.location.longitude)
+                let lat = 19.0760
+                let lng = 72.8777
                 
                // self.locationINfo.append(RestAnnotation(title: i.name, coordinate: CLLocationCoordinate2D(latitude: lat ?? -33.5152, longitude: lng ?? -72.5152)))
                 
                
                 
-                self.locationINfo.append(RestAnnotation(title: i.name, coordinate: CLLocationCoordinate2D(latitude: lat ?? -33.5152, longitude: lng ?? -71.55)))
+                self.locationINfo.append(RestAnnotation(title: i.name, coordinate: CLLocationCoordinate2D(latitude: lat ?? 19.0760, longitude: lng ?? 72.8777)))
                 
                 
                 
