@@ -7,54 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3FFFAD49-FF45-4D00-9909-C215B773C833"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RestarantAppUsingZomatoApi/RestaurantsList/UI/RestaurantListView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "3FFFAD49-FF45-4D00-9909-C215B773C833 - b08251298c49978c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RestarantAppUsingZomatoApi.RestaurantListView.body.getter : some"
-                  moduleName = "RestarantAppUsingZomatoApi"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/knoxpomacbookpro/Desktop/riddhi/RestarantAppUsingZomatoApi/RestarantAppUsingZomatoApi/RestaurantsList/UI/RestaurantListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "949">
-               </Location>
-               <Location
-                  uuid = "3FFFAD49-FF45-4D00-9909-C215B773C833 - 8ae9dd18291f1df8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;RestarantAppUsingZomatoApi.CustumActivityIndicator, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;RestarantAppUsingZomatoApi.Restarant&gt;, Swift.String, SwiftUI.HStack&lt;SwiftUI.EmptyView&gt;&gt;&gt;&gt;, RestarantAppUsingZomatoApi.MapView&gt; in RestarantAppUsingZomatoApi.RestaurantListView.body.getter : some"
-                  moduleName = "RestarantAppUsingZomatoApi"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/knoxpomacbookpro/Desktop/riddhi/RestarantAppUsingZomatoApi/RestarantAppUsingZomatoApi/RestaurantsList/UI/RestaurantListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "449">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "F71EF9D0-A89E-4845-9C06-EECB5F3AFDF2"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -66,38 +18,6 @@
             endingLineNumber = "119"
             landmarkName = "ListHeader"
             landmarkType = "14">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "90935BE7-D70E-47ED-9E88-042D80169A2B"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RestarantAppUsingZomatoApi/Services/APi/ZomatoAPi.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
-            landmarkName = "LocationSearch(city:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E5E9B61F-748C-4158-9556-BE2E5F1163B7"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RestarantAppUsingZomatoApi/Home/UI/CuisinesUI.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "body"
-            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -119,22 +39,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4A57CBBF-DAAE-4ECB-9243-31C8C875578D"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RestarantAppUsingZomatoApi/Home/UI/CuisinesUI.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
-            landmarkName = "body"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "1B64678E-F88B-44A7-8FD9-A0A0ABBB2971"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -142,9 +46,9 @@
             filePath = "RestarantAppUsingZomatoApi/Services/APi/ZomatoAPi.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "fetchUserLocation(lat:log:)"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "fetchUserLocationInfo(lat:lon:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
